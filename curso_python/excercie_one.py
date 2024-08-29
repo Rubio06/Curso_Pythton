@@ -23,18 +23,18 @@
 # resultado = sumar(*numeros)  # Desempaqueta la lista en los argumentos de la función
 # print(resultado)  # Output: 6
 
-# def num_list(tamano_lista):
-#     lista = []
-#     suma_total = 0
+def num_list(tamano_lista):
+    lista = []
+    suma_total = 0
 
-#     for valor in range(tamano_lista):
-#         valores = int(input(f"Inrese el valor {valor + 1} de la lista: "))
-#         lista.append(valores)
-#         suma_total += valores
+    for valor in range(tamano_lista):
+        valores = int(input(f"Inrese el valor {valor + 1} de la lista: "))
+        lista.append(valores)
+        suma_total += valores
     
-#     return suma_total
+    return suma_total
 
-# print("La suma total de los valores es:", num_list(int(input("Ingrese la dimensión de la lista: "))))
+print("La suma total de los valores es:", num_list(int(input("Ingrese la dimensión de la lista: "))))
 
 
 # Escribe un programa que imprima la tabla de multiplicar del 1 al 10 para un número ingresado por el usuario.
@@ -49,13 +49,13 @@
 
 # Verificar que valor de un array es par o impart
 
-lista_par_impart = [38, 22,12,17,25,22]
+# lista_par_impart = [38, 22,12,17,25,22]
 
-for i in range(len(lista_par_impart)):
-    if lista_par_impart[i] % 2:
-        print(f"{lista_par_impart[i]} impart")
-    else:
-        print(f"{lista_par_impart[i]} par")
+# for i in range(len(lista_par_impart)):
+#     if lista_par_impart[i] % 2:
+#         print(f"{lista_par_impart[i]} impart")
+#     else:
+#         print(f"{lista_par_impart[i]} par")
 
 
 

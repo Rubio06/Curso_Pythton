@@ -28,7 +28,7 @@ for valor in reversed(lista_one):
     print(valor)
 
 
-print("--- Utilizando una funcion lambda ---")
+print("--- La funcion fiter(bool, iterable) sirve para filtrar y mostrar elementos  ---")
 for valor in filter(lambda x: x.startswith('c'), lista_one):
     print(valor)
 

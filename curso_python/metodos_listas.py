@@ -1,3 +1,5 @@
+## METODOS DE LAS LISTAS
+
 # Agrega un elemento al final de la lista.
 lista = [1, 2, 3]
 lista.append(4)
@@ -41,6 +43,7 @@ conteo = lista.count(2)
 print(conteo)  # 3
 
 
+
 lista = [3, 1, 4, 2]
 lista.sort()
 print(lista)  # [1, 2, 3, 4]
@@ -58,3 +61,6 @@ print(lista_copia)  # [1, 2, 3]
 
 lista = [x**2 for x in range(5)]
 print(lista)  # [0, 1, 4, 9, 16]
+
+
+
